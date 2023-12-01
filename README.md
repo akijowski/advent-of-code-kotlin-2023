@@ -14,6 +14,14 @@ If you're stuck with Kotlin-specific questions or anything related to this templ
 
 - [ ] Add VSCode extensions to make working with Kotlin easier
 
+## VSCode
+
+### Extensions
+
+- Extension Pack for Java
+- Gradle for Java
+- Kotlin Language
+
 
 [^aoc]:
     [Advent of Code][aoc] – An annual event of Christmas-oriented programming challenges started December 2015.

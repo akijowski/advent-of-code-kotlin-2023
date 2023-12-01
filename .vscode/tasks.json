@@ -1,0 +1,20 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run",
+            "type": "shell",
+            // TODO: capture in a separate script
+            "command": "kotlinc ${file} -cp ${fileWorkspaceFolder}/src -include-runtime -d ${file}.jar",
+            "group": "build",
+            "problemMatcher": [],
+            "options": {
+                "shell": {
+                    "args": ["-i"]
+                }
+            }
+        }
+    ]
+  }
