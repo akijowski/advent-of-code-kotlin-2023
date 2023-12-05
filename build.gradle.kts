@@ -20,7 +20,15 @@ tasks {
         description = "custom run tasks"
 
         classpath = sourceSets.main.get().runtimeClasspath
+
+        var mc = "Day02Kt"
+        if (project.hasProperty("myClass")) {
+            val prop = project.property("myClass").toString()
+            println("----> ${prop}")
+            mc = prop
+            println("----> ${mc}")
+        }
         // TODO: configure as gradle property (project.hasProperty("foo") ? project.getProperty("foo") : "default")
-        mainClass.set("Day01Kt")
+        mainClass.set(mc)
     }
 }

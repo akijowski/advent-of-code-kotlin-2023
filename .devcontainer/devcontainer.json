@@ -10,5 +10,14 @@
         "ghcr.io/devcontainers-contrib/features/kotlin-sdkman:2": {},
         "ghcr.io/devcontainers-contrib/features/gradle-sdkman:2": {},
         "ghcr.io/devcontainers-contrib/features/go-task:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vscjava.vscode-java-pack",
+                "vscjava.vscode-gradle",
+                "fwcd.kotlin"
+            ]
+        }
     }
 }

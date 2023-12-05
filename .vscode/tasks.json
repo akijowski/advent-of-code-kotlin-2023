@@ -12,6 +12,7 @@
             "problemMatcher": [],
             "options": {
                 "shell": {
+                    // see: https://github.com/microsoft/vscode/issues/27185#issuecomment-343126048
                     "args": ["-i"]
                 }
             }
